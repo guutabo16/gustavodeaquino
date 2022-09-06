@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titulo aba-->
+    <title>Contato</title>
+    <!-- Bootstrap injetado-->
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/bootstrap.css">
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Contato</h1>
+        <p>Gustavo de Aquino Ferreira</p>
+        <nav>
+            <a href="./sobre.html">Sobre mim</a>
+            <a href="./formacao.html">Formação</a>
+            <a href="./portfolio.html">Portfólio</a>
+            <a href="">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <head>
+            <article style="text-align: center;">
+                <h2>Deixe seus dados para que eu entre em contato!</h2>
+            </article>
+        </head>
+
+        <!-- Inputs do bootstrap para simular email-->
+        <body>
+            <form>
+                <div class="mt-4 mb-4 ml-4 form-group">
+                    <div class="mt-1">
+                        <label for="emailVisitante">Seu email</label>
+                        <input type="email" class="form-control" id="emailVisitante" placeholder="nome@exemplo.com">
+                    </div>
+                    
+                    <div class="mt-3">
+                        <label for="assunto">Qual o assunto?</label>
+                        <select class="form-control" id="assunto">
+                            <option>Trabalho em tecnologia</option>
+                            <option>Curso Remoto</option>
+                            <option>Outros</option>
+                        </select>
+                    </div>
+                    
+                    <div class="mt-3">
+                        <label for="urgencia">Qual a urgência?</label>
+                        <select multiple class="form-control" id="urgencia">
+                            <option>Sem urgência</option>
+                            <option>O mais rápido possível</option>
+                            <option>Vida ou morte</option>
+                        </select>
+                    </div>
+                    
+                    <div class="mt-3">
+                        <label for="mensagem">Deixe sua mensagem</label>
+                        <textarea class="form-control" id="mensagem" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success mr-1">Enviar</button>
+                </div>
+                
+                <br><br>
+            </form>
+        </body>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Site criado por <strong><a href="https://github.com/guutabo16" target="_blank">Gustavo de Aquino Ferreira</a></strong></a>.</p>
+    </footer>
+
+</body></html>
